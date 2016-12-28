@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Testing site</title>
+<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+<meta name="description" content="Testing">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href='css/style.css' rel='stylesheet'>
+<link href='css/fonts.css' rel='stylesheet'>
+
+
+<!-- bxSlider css -->
+<link href='css/jquery.bxslider.css' rel='stylesheet'>
+<!-- jQuery -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> 
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+</head>
+<body>
+
+<header>
+	<div class="logo">
+		<span class="mediumtext"><b>Company</b> Name</span>
+	</div>
+		<div id="burger-menu" onclick="showDiv()">
+			<div id="burger-layer-one"></div>
+			<div id="burger-layer-two"></div>
+			<div id="burger-layer-three"></div>
+		</div>
+
+		<!--Desktop navigation -->
+		<nav>
+			<a href="index.html"><div class="navitems">Home</div></a>
+			<a href="index.html"><div class="navitems">About Us</div></a>
+			<a href="index.html"><div class="navitems">Contact</div></a>
+		</nav>	
+</header>
+
+<!--mobile navigation -->
+<div id="showdiv">
+	<div class="mobile-nav-content">
+		<a href="index.html"><div>Home</div></a>
+		<a href="index.html"><div>About Us</div></a>
+		<a href="index.html"><div>Contact</div></a>
+	</div>
+</div>
+	
+	
+	<div class="image">
+		<img src="images/product-image.jpg" alt="product-image">
+	</div>
+		<main>
+		 	<section>
+		 		<h1><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b></h1>
+
+		 		<div class="section-content">
+			 		<div class="price">
+				 		<span class="largetext">&pound;12.99</span><br>
+				 		
+				 		<div class="productdesc">
+					 		Pack of 4<br>
+					 		32w bayonet bulbs
+				 		</div>
+			 		</div>
+			 		<div class="quantitycontainer">
+			 			<b>Quantity</b> <span class="mediumtext">1</span><br>
+			 			<button class="quantity">-</button>
+			 			<button class="quantity">+</button>
+			 		</div>
+		 		</div>
+
+		 		<div class="cartbutton">
+		 			<button class="addtocart">Add to cart</button>
+		 		</div>
+
+		 	</section>
+		</main>
+
+		<div class="container">
+		<section>
+		 	<h2>Description</h2>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget dignissim massa. Proin nisi metus, sollicitudin hendrerit dolor et, dictum malesuada ipsum. Morbi tristique ex a erat mattis, ac faucibus dolor vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget dignissim massa. Proin nisi metus, sollicitudin hendrerit dolor et, dictum malesuada ipsum. Morbi tristique ex a erat mattis, ac faucibus dolor vehicula.</p>
+		 		<div class="show">
+		 		<a onclick="showDiv()">Show more info</a>
+		 		</div>
+		 
+		 </section>
+
+		 <section>
+		 	<div id="showmore">
+		 	<h2>Specifications</h2>
+		 	<div class="tablecontainer">
+				<div class="tablebody">
+					<div class="tablerow">
+						<div class="tablecell">Brand</div>
+						<div class="tablecell">Philips</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Item Weight</div>
+						<div class="tablecell">77g</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Product Dimension</div>
+						<div class="tablecell">12.6 x 6.2 x 6.2 cm</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Item model number</div>
+						<div class="tablecell">E27 ES</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Part Number</div>
+						<div class="tablecell">8727900925944</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Weight</div>
+						<div class="tablecell">75 Grams</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Number of items</div>
+						<div class="tablecell">1</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Color</div>
+						<div class="tablecell">Cool Daylight</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Shape</div>
+						<div class="tablecell">Spiral</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Finish</div>
+						<div class="tablecell">White</div>
+					</div>
+					<div class="tablerow">
+						<div class="tablecell">Voltage</div>
+						<div class="tablecell">220 volts</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="show">
+		 		<a onclick="showDiv()">Show less info</a>
+		 	</div>
+		 	</div><!--showmore div-->
+		 </section>
+		 </div>
+
+		 <div class="container">
+		 <section class="four">
+		 	<h1 align="center">You may also like...</h1>
+
+			<div class="bxslider">
+			
+		 	<div class="productcontainer">
+			 	<a class="products" href=""><img src="images/product-image.jpg" alt="product-image">
+			 	<div class="producttext">
+			 		<p><span class="mediumtext"><b>Lorem ipsum dolor sit amet No. 1</b></span></p>
+			 		<span class="mediumtext">&pound;43.99</span>
+			 	</div>
+			 	</a>
+		 	</div>
+
+		 	<div class="productcontainer">
+		 	<a class="products" href="">
+			 	<img src="images/product-image.jpg" alt="product-image">
+			 	<div class="producttext">
+			 		<p><span class="mediumtext"><b>Lorem ipsum dolor sit amet No. 1</b></span></p>
+			 		<span class="mediumtext">&pound;23.99</span>
+			 	</div>
+			 	</a>
+		 	</div>
+
+		 	<div class="productcontainer">
+		 	<a class="products" href="">
+			 	<img src="images/product-image.jpg" alt="product-image">
+			 	<div class="producttext">
+			 		<p><span class="mediumtext"><b>Lorem ipsum dolor sit amet No. 1</b></span></p>
+			 		<span class="mediumtext">&pound;53.99</span>
+			 	</div>
+			 	</a>
+		 	</div>
+		 	</div>
+
+		 	<div class="moreways">
+		 		<a href=""><button class="morewaysbutton">Lorem ipsum dolor sit amet >></button></a>
+		 	</div>
+		 </section>
+		 </div>
+<footer>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget dignissim massa. Proin nisi metus, sollicitudin hendrerit dolor et, dictum malesuada ipsum. Morbi tristique ex a erat mattis, ac faucibus dolor vehicula.
+</footer>
+
+
+<script>
+//for mobile nav
+function showDiv() {
+	var el = document.getElementById("showdiv");
+	var eltwo = document.getElementById("showmore");
+
+	if ( el.style.display != "block") {
+    	el.style.display = "block";
+	}
+
+	else {
+		el.style.display = "none";
+	}
+
+	if (eltwo.style.display != "block") {
+		eltwo.style.display = "block";
+	} else {
+		eltwo.style.display = "none";
+	}
+}
+</script>
+
+<script>
+//slider for product
+$(document).ready(function(){
+	  $('.bxslider').bxSlider({
+		  pager: false,
+		  auto: true,
+		 maxSlides: 1,
+		 slideWidth: 1020,
+		  slideMargin: 10
+		  });
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1 {
+	font-size: 1.875em; /* 30px */
+	font-weight: 400;
+	margin: 2%;
+	padding: 0;
+}
+
+h2 {
+	font-size: 1.750em; /* 28px */
+	margin: 0;
+	padding:10px 0;
+}
+
+h3 {
+	font-size: 1.500em; /* 24px */
+	margin: 0;
+	padding: 0;
+}
+
+.largetext {
+	font-size: 2em; /* 32px */
+	font-weight: bold;
+}
+
+.mediumtext {
+	font-size: 1.625em; /* 26px */
+	margin: 0;
+	padding:10px 0;
+}

@@ -1,0 +1,311 @@
+/*MOBILE*/
+body {
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: lightblue;
+}
+
+header {
+	padding: 5% 6% 8%;
+}
+
+.logo{
+		float: left;
+		width: 90%;
+	}
+
+nav {
+	display:none;
+}
+
+#showdiv {
+	display: none;
+	padding-top: 5%;
+	text-align: center;
+	font-size: 1.750em;
+}
+
+#showmore {
+	display: none;
+}
+
+.mobile-nav-content div {
+	padding: 2% 5%;
+}
+
+#burger-menu {
+		float: right;
+		width: 10%;
+	}
+	
+	#burger-layer-one, #burger-layer-two, #burger-layer-three {
+		width: 30px;
+		height: 5px;
+		background-color: #fff;
+		margin: 0 0 5px 0;
+		transition: all 0.8s;
+	}
+	
+	#burger-layer-three {
+		margin: 0;
+	}
+	
+/* --- END Burger Menu --- */
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.image {
+	position: relative;
+	height: 28vh;
+}
+
+.image img {
+	-webkit-box-shadow: 5px 5px 10px -3px rgba(102,102,102,1);
+	-moz-box-shadow: 5px 5px 10px -3px rgba(102,102,102,1);
+	box-shadow: 5px 5px 10px -3px rgba(102,102,102,1);
+	position: absolute;
+    top: 5vh;
+    left: 5vw;
+    object-fit: cover;
+    width: 90%;
+    height: 30vh;
+}
+
+main {
+	border-radius: 5px;
+	background: #fff;
+	color: #000;
+	padding: 15% 3% 5%;
+}
+
+section {
+	padding: 5%;
+}
+.section-content {
+	display: flex;
+	margin: 10% 0 15%;
+}
+
+.section-content .price .productdesc {
+	margin: 8% 0;
+
+}
+
+.price {
+	flex-basis: 60%;
+}
+
+.quantitycontainer {
+	flex-basis: 40%;
+}
+
+section .quantity {
+	background: #000;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 5% 0 0;
+	padding: 10% 0;
+	width: 45%;
+}
+
+ main section .cartbutton {
+	width: 90%;
+	margin: 0 auto;
+}
+
+main section .cartbutton .addtocart {
+	background: #000;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5% 0;
+    width: 100%;
+}
+
+main section .addtocart:hover {
+	background: #233249;
+    color: #fff;
+}
+
+ .show {
+ 	text-decoration: underline;
+}
+
+section .moreways {
+	margin: 20% 0;
+}
+/* moreways button */
+section .moreways .morewaysbutton {
+	background: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #000;
+    font-size: 1.556em;
+    font-weight: bold;
+    margin: 0 auto;
+    transition: all ease-in 0.2s;
+    padding: 5% 10%;
+    width: 100%;
+}
+
+section .moreways .morewaysbutton:hover {
+	background: #233249;
+    color: #fff;
+}
+
+.moreinfo {
+	color: green;
+}
+
+.show {
+	text-align: center;
+}
+
+/* Specifications section */
+.tablecontainer {
+	display: table;
+	padding: 3% 0 8%;
+	width: 100%;
+}
+
+.tablebody {
+	display: table-row-group;
+}
+
+.tablerow {
+	display: table-row;
+}
+
+.tablecell {
+	border-bottom: 1px solid #999999;
+	display: table-cell;
+	padding: 3px;
+}
+
+.products {
+	text-decoration: none;
+	color: #000;
+}
+
+section .productcontainer{
+	border-radius: 5px;
+	background: #fff;
+	color: #000;
+	margin: 20px 0;
+}
+
+section .productcontainer img {
+ 	object-fit: cover;
+  	width:100%;
+ 	height:40vh;
+}
+
+section .productcontainer .producttext {
+	padding: 5%;
+}
+
+footer {
+	background: #515151;
+	font-size: 0.889em;
+	padding: 5% 3%;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+    font-size: 18px;
+  }
+
+  header {
+	padding: 2% 5%;
+	height: 10vh;
+}
+
+	.logo {
+		width: 20%;
+	}
+
+  nav {
+  	display: block;
+  	width: 50%;
+  	float: right;
+	}
+
+	nav .navitems {
+		display: inline-block;
+		padding: 2% 10%;
+		transition: all ease-in 0.2s;
+	}
+
+		nav .navitems:hover {
+		background: #233249;
+    	color: #fff;
+	}
+
+	#burger-menu {
+		display: none;
+	}
+
+	#showdiv {
+		display: none;
+	}
+
+	.mobile-nav-content {
+		display: none;
+	}
+
+	.image {
+	height: auto;
+    float: left;
+    width: 50%;
+}
+
+.image img {
+	position: static;
+    width: 100%;
+    height: auto;
+}
+
+	main {
+		border-radius: 0;
+		box-sizing: border-box;
+		padding: 0 3%;
+    	display: inline-block;
+    	width: 50%;
+    
+	}
+
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container section {
+		box-sizing: border-box;
+    	flex-basis: 100%;
+	}
+
+	.container .four {
+		margin: auto;
+		flex-basis: 50%;
+	}
+
+		section .moreways {
+	    margin: 5% 0;
+	}
+}
